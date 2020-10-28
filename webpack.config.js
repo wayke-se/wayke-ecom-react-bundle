@@ -5,7 +5,7 @@ const version = require("./package.json").version;
 
 module.exports = {
   devtool: "source-map",
-  mode: "development",
+  mode: "production",
   context: path.resolve(__dirname),
   target: "web",
   entry: "./src/index.tsx",
@@ -41,7 +41,7 @@ module.exports = {
   plugins: [
     new webpack.DefinePlugin({
       "process.env": {
-        NODE_ENV: '"development"',
+        NODE_ENV: '"production"',
       },
     }),
   ],

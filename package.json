@@ -1,10 +1,10 @@
 {
   "name": "wayke-ecom-react-bundler",
-  "version": "3.1.0",
+  "version": "3.2.1",
   "description": "A bundler for Waykes E-commerce React Component",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js --progress --profile --bail --mode development",
+    "build": "webpack --config webpack.config.js --progress --profile --bail --mode production",
     "prebuild": "npm run clean",
     "clean": "rimraf ./build",
     "lint": "eslint -c .eslintrc.js --ext .ts,.tsx 'src/**/*.{ts,tsx}'",
@@ -30,7 +30,7 @@
     "node": ">= 10.0.0"
   },
   "dependencies": {
-    "@wayke-se/ecom-react": "^3.1.0",
+    "@wayke-se/ecom-react": "^3.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
