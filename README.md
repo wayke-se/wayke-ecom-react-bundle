@@ -16,7 +16,7 @@ This project creates a stand alone javascript bundle with the Wayke Ecom compone
 </head>
 <html>
     <body>
-        <script src="https://cdn.wayke.se/public-assets/wayke.ecom.v3.1.0.js"></script>
+        <script src="https://cdn.wayke.se/public-assets/wayke.ecom.v3.2.1.js"></script>
         <!--
             A development version is available here:
             <script src="https://test-cdn.wayketech.se/public-assets/wayke.ecom.v3.1.0.js"></script>
