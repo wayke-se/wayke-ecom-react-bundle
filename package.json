@@ -1,6 +1,6 @@
 {
   "name": "wayke-ecom-react-bundler",
-  "version": "3.2.1",
+  "version": "3.3.0",
   "description": "A bundler for Waykes E-commerce React Component",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "node": ">= 10.0.0"
   },
   "dependencies": {
-    "@wayke-se/ecom-react": "^3.2.1",
+    "@wayke-se/ecom-react": "^3.3.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
