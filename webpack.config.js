@@ -5,7 +5,6 @@ const version = require("./package.json").version;
 
 module.exports = {
   devtool: "source-map",
-  mode: "production",
   context: path.resolve(__dirname),
   target: "web",
   entry: "./src/index.tsx",
